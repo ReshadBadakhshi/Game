@@ -14,8 +14,6 @@ function movecircleup() {
   }
 }
 
-
-
 function movecircledown() {
   let top = circle.style.top;
   let currenttop = parseInt(top) || 0;
