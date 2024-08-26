@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.frame {
+  border: 2px solid red;
+  width: 50vw;
+  height: 70vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10px;
+  font-size: 20px;
+  /* padding: 100px; */
+}
+
+.btn-up {
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
